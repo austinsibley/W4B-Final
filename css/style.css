@@ -1,5 +1,5 @@
 *{
-    background-color: #f9f8f5;
+    background-color: #ffffff;
     margin: auto;
     padding: 2px;
     
@@ -20,7 +20,7 @@
 }
 
 .logo:hover{
-    filter: hue-rotate(360deg);
+    filter: hue-rotate(180deg);
 }
 
 a{
