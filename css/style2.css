@@ -1,0 +1,44 @@
+*{
+    background-color: #100f12;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+
+}
+
+.logo{
+    position: absolute;
+    scale: 75%;
+    max-width: 100vw;
+    height: auto;
+    top: 1vw;
+    margin-top: -4vw;
+    text-align: center;
+}
+nav{
+    background: #100f12;
+    position: sticky;
+    box-shadow: 0em 0em 3em 4em #100f12;
+    padding: 0em;
+    z-index: 1;
+    top: 1vw;
+    margin-bottom: 5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2vw;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+img{
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    
+}

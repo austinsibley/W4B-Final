@@ -49,7 +49,7 @@ a{
     margin-right: 1em;
     margin-top: 18vw;
     padding: 2vw;
-    width: 8vw;
+    width: auto;
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -83,10 +83,7 @@ p{
     text-align: center;
 }
 
-.newrelease{
-    text-align: center; 
      
-}
 .music{
     text-align: center; 
 }
@@ -121,7 +118,12 @@ nav{
     margin-right: 3.5vw;
     max-width: 100%;
     height: auto;
+    filter:invert(0%);
+    transition: filter 0.3s ease-in-out;
 
+}
+.albumart:hover{
+    filter: invert(100%);
 }
 
 footer{
