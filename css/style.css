@@ -127,7 +127,6 @@ nav{
 }
 
 footer{
-    text-align: center;
     width: 100%;
     height: auto;
     background-color: #100f12;
@@ -165,9 +164,13 @@ h1{
     max-width: 100%;
     height: auto;
 }
+
 .ig{
     float: left;
 }
 .twitter{
     float: left;
+}
+.copyright{
+    text-align: center;
 }
